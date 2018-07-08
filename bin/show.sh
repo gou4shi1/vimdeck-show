@@ -20,7 +20,6 @@ main() {
     clean_up
     generate
     replace_hand_made_files
-    insert_top_margin_to_files
     customize_vim_script
     open_it_up
 }
@@ -52,7 +51,7 @@ clean_up() {
 }
 
 generate() {
-    vimdeck generate --header-font threepoint --header-margin 2 --padding 2 slides.md
+    vimdeck generate --header-margin 2 --padding 2 slides.md
 }
 
 insert_top_margin_to_files() {
